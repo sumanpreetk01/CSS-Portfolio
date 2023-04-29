@@ -29,8 +29,12 @@ header{
     display: flex;
 }
 
+#navcontent a{
+    text-decoration: none;
+    color:rgb(129, 181, 194)
+}
+
 #navcontent li{
-    color:rgb(129, 181, 194);
     justify-content: flex-end;
     flex-wrap: wrap;
     margin-top: 10px;
@@ -119,7 +123,7 @@ header{
 }
 .subcontainer1 p{
     font-size: 10px;
-    margin-top: 8%;
+    margin-top: 5%;
 }
 .subcontainer2{
     display: flex;
@@ -156,6 +160,10 @@ header{
     width: 50%;
     background-image: url(../images/pic3.jpeg);
 }
+.box-3 p{
+    font-size: 10px;
+    margin-top: 5%;
+}
 .subcontainer3{
     display: flex;
     height: 100px;
@@ -170,10 +178,18 @@ header{
     margin-right: 5px;
     background-image: url(../images/pic4.jpeg);
 }
+.box-4 p{
+    font-size: 10px;
+    margin-top: 5%;
+}
 .box-5{
     border: 5px solid rgb(101, 185, 221);
     width: 50%;
     background-image: url(../images/pic5.jpeg);
+}
+.box-5 p{
+    font-size: 10px;
+    margin-top: 5%;
 }
 footer{
      margin-left: 5%;
